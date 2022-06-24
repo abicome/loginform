@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    @include('_includes/head.html', { 'title': 'My Page', 'description':
+    'Description main' })
+    <body>
+        <div class="wrapper">
+            <main class="main">
+                <button class="btn btn-popup" data-popup-link="popup-1">Login</button>
+              </main>
+          @include('part/popup.html')
+
+          </div>
+
+          @include('_includes/scripts.html')
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<div class="popup popup-1">
+  <div class="popup__wrapper">
+    <div class="popup__bg"></div>
+    <div class="popup__inner">
+      <span class="popup__close"></span>
+      <div class="lform form-login">
+        <div class="lform__head">
+          <div class="title align-center">Login</div>
+          <div class="info align-center">
+            Welcome to Woxparts, please login <br />
+            if you have registration
+          </div>
+        </div>
+        <div class="lform__body">
+          <form name="login">
+            <div class="lform__inp">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="lform__inp">
+              <div class="lform__inp-group">
+                <label>Password</label
+                ><a href="#" class="link">Forgot your password?</a>
+              </div>
+              <input
+                type="password"
+                name="password"
+                placeholder="·····"
+                class="password-input"
+              />
+              <span class="view_passw">
+                <svg class="icon icon-see" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.50003 11.8333C10.0648 11.8333 11.3334 10.5648 11.3334 9.00001C11.3334 7.4352 10.0648 6.16667 8.50003 6.16667C6.93522 6.16667 5.6667 7.4352 5.6667 9.00001C5.6667 10.5648 6.93522 11.8333 8.50003 11.8333Z" fill="#B8C0CF"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.59155 9.34931C1.57514 9.32421 1.5606 9.29808 1.54797 9.27115C1.46516 9.09548 1.46935 8.89657 1.54797 8.72886C1.5606 8.70193 1.57514 8.6758 1.59155 8.65071C3.43842 5.70182 5.91573 4.11249 8.50001 4.11249C11.0843 4.11249 13.5616 5.70182 15.4085 8.6507C15.4249 8.67582 15.4395 8.70198 15.4521 8.72894C15.493 8.81581 15.5127 8.90836 15.5126 9.00001C15.5125 9.12343 15.4765 9.24523 15.4085 9.34931C13.5616 12.2982 11.0843 13.8875 8.50001 13.8875C5.91573 13.8875 3.43842 12.2982 1.59155 9.34931ZM8.50001 5.38749C6.56922 5.38749 4.54011 6.52417 2.88404 9C4.54011 11.4758 6.56922 12.6125 8.50001 12.6125C10.4308 12.6125 12.4599 11.4758 14.116 9C12.4599 6.52417 10.4308 5.38749 8.50001 5.38749Z" fill="#B8C0CF"/>
+                </svg>
+              </span>
+            </div>
+            <button class="btn btn-login">Login</button>
+          </form>
+          <button class="btn btn-alt btn-signup">Sign Up</button>
+        </div>
+      </div>
+      <div class="lform form-sign" style="display: none">
+        <div class="lform__head">
+          <div class="title align-center">Sign Up</div>
+          <div class="info align-center">Welcome to Woxparts</div>
+        </div>
+        <div class="lform__check">
+          <input type="radio" name="type-sign" id="check-personal" checked />
+          <label for="check-personal">Personal</label>
+          <input type="radio" name="type-sign" id="check-company" />
+          <label for="check-company">Company</label>
+        </div>
+        <div class="lform__body">
+          <form name="signup">
+            <div class="lform__inp">
+              <label>First Name</label>
+              <input type="text" name="firstname" placeholder="First Name" />
+            </div>
+            <div class="lform__inp">
+              <label>Last Name</label>
+              <input type="text" name="lastname" placeholder="Last Name" />
+            </div>
+            <div class="lform__dop" style="display: none">
+              <div class="lform__inp">
+                <label>Company Name</label>
+                <input
+                  type="text"
+                  name="companyname"
+                  placeholder="Company Name"
+                />
+              </div>
+              <div class="lform__inp">
+                <label>Registration Nr</label>
+                <input
+                  type="text"
+                  name="reg-nr"
+                  placeholder="Registration Nr"
+                />
+              </div>
+            </div>
+            <div class="lform__inp">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="lform__inp">
+              <label>Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="·····"
+                class="password-input"
+              />
+              <span class="view_passw">
+                <svg class="icon icon-see" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.50003 11.8333C10.0648 11.8333 11.3334 10.5648 11.3334 9.00001C11.3334 7.4352 10.0648 6.16667 8.50003 6.16667C6.93522 6.16667 5.6667 7.4352 5.6667 9.00001C5.6667 10.5648 6.93522 11.8333 8.50003 11.8333Z" fill="#B8C0CF"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.59155 9.34931C1.57514 9.32421 1.5606 9.29808 1.54797 9.27115C1.46516 9.09548 1.46935 8.89657 1.54797 8.72886C1.5606 8.70193 1.57514 8.6758 1.59155 8.65071C3.43842 5.70182 5.91573 4.11249 8.50001 4.11249C11.0843 4.11249 13.5616 5.70182 15.4085 8.6507C15.4249 8.67582 15.4395 8.70198 15.4521 8.72894C15.493 8.81581 15.5127 8.90836 15.5126 9.00001C15.5125 9.12343 15.4765 9.24523 15.4085 9.34931C13.5616 12.2982 11.0843 13.8875 8.50001 13.8875C5.91573 13.8875 3.43842 12.2982 1.59155 9.34931ZM8.50001 5.38749C6.56922 5.38749 4.54011 6.52417 2.88404 9C4.54011 11.4758 6.56922 12.6125 8.50001 12.6125C10.4308 12.6125 12.4599 11.4758 14.116 9C12.4599 6.52417 10.4308 5.38749 8.50001 5.38749Z" fill="#B8C0CF"/>
+                </svg>
+              </span>
+            </div>
+            <div class="lform__checkbox">
+              <label>
+                <input type="checkbox" name="news" checked />
+                <span class="checkmark">
+                    <svg class="icon icon-check" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="122.877px" height="101.052px" viewBox="0 0 122.877 101.052" enable-background="new 0 0 122.877 101.052" xml:space="preserve"><g><path d="M4.43,63.63c-2.869-2.755-4.352-6.42-4.427-10.11c-0.074-3.689,1.261-7.412,4.015-10.281 c2.752-2.867,6.417-4.351,10.106-4.425c3.691-0.076,7.412,1.255,10.283,4.012l24.787,23.851L98.543,3.989l1.768,1.349l-1.77-1.355 c0.141-0.183,0.301-0.339,0.479-0.466c2.936-2.543,6.621-3.691,10.223-3.495V0.018l0.176,0.016c3.623,0.24,7.162,1.85,9.775,4.766 c2.658,2.965,3.863,6.731,3.662,10.412h0.004l-0.016,0.176c-0.236,3.558-1.791,7.035-4.609,9.632l-59.224,72.09l0.004,0.004 c-0.111,0.141-0.236,0.262-0.372,0.368c-2.773,2.435-6.275,3.629-9.757,3.569c-3.511-0.061-7.015-1.396-9.741-4.016L4.43,63.63 L4.43,63.63z"/></g></svg>
+                </span>
+                I want to receive news/updates
+              </label>
+              <label>
+                <input type="checkbox" name="policy" />
+                <span class="checkmark">
+                    <svg class="icon icon-check" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="122.877px" height="101.052px" viewBox="0 0 122.877 101.052" enable-background="new 0 0 122.877 101.052" xml:space="preserve"><g><path d="M4.43,63.63c-2.869-2.755-4.352-6.42-4.427-10.11c-0.074-3.689,1.261-7.412,4.015-10.281 c2.752-2.867,6.417-4.351,10.106-4.425c3.691-0.076,7.412,1.255,10.283,4.012l24.787,23.851L98.543,3.989l1.768,1.349l-1.77-1.355 c0.141-0.183,0.301-0.339,0.479-0.466c2.936-2.543,6.621-3.691,10.223-3.495V0.018l0.176,0.016c3.623,0.24,7.162,1.85,9.775,4.766 c2.658,2.965,3.863,6.731,3.662,10.412h0.004l-0.016,0.176c-0.236,3.558-1.791,7.035-4.609,9.632l-59.224,72.09l0.004,0.004 c-0.111,0.141-0.236,0.262-0.372,0.368c-2.773,2.435-6.275,3.629-9.757,3.569c-3.511-0.061-7.015-1.396-9.741-4.016L4.43,63.63 L4.43,63.63z"/></g></svg>
+                </span>
+                I agree with the Privacy Policy and Terms of Use
+              </label>
+            </div>
+            <button class="btn">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
